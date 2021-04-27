@@ -20,11 +20,11 @@ Category|Description|Available
 --------|-----------|---------
 Hardware|Wemos D1 mini Pro ESP8266EX (V1.1)|[Manufacturer](https://www.wemos.cc/en/latest/d1/d1_mini_pro.html) or [AliExpress](https://www.aliexpress.com/item/32864534447.html)
 Hardware|Solderless Electronics Breadboard|[Example kit I used](https://www.amazon.ca/gp/product/B00DGNZ9G8)
-Hardware|1x 10k resistor|Example kit I used](https://www.amazon.ca/gp/product/B00DGNZ9G8)
-Hardware|103 NTC 10k thermistor|Example kit I used](https://www.amazon.ca/gp/product/B00DGNZ9G8)
-Hardware|2x black jumper wires|Example kit I used](https://www.amazon.ca/gp/product/B00DGNZ9G8)
-Hardware|2x red jumper wires|Example kit I used](https://www.amazon.ca/gp/product/B00DGNZ9G8)
-Hardware|1x yellow jumper wire|Example kit I used](https://www.amazon.ca/gp/product/B00DGNZ9G8)
+Hardware|1x 10k resistor|[Example kit I used](https://www.amazon.ca/gp/product/B00DGNZ9G8)
+Hardware|103 NTC 10k thermistor|[Example kit I used](https://www.amazon.ca/gp/product/B00DGNZ9G8)
+Hardware|2x black jumper wires|[Example kit I used](https://www.amazon.ca/gp/product/B00DGNZ9G8)
+Hardware|2x red jumper wires|[Example kit I used](https://www.amazon.ca/gp/product/B00DGNZ9G8)
+Hardware|1x yellow jumper wire|[Example kit I used](https://www.amazon.ca/gp/product/B00DGNZ9G8)
 Hardware|iPhone or Android phone|
 Hardware|5V portable USB battery charger|[Example charger I used](https://www.amazon.ca/gp/product/B0194WDVHI)
 Software|Arduino IDE|[Download](https://www.arduino.cc/en/software)
