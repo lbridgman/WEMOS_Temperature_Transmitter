@@ -57,7 +57,7 @@ Assemble the microcontroller, resistor, thermistor, and jumper wires accordingly
 **Note:** You are drawing power from the `3V3` pin, and you are connecting the circuit to the `A0` pin.
 
 ### 4.4 Write the Code
-1. Download the temp_transmitter.ino file.
+1. Download the [temp_transmitter.ino](https://github.com/lbridgman/WEMOS_Temperature_Transmitter/blob/141f5ad2bccf07c7caf7d73f4e3dfb6716e65491/temp_transmitter.ino) file.
 2. Open the temp_transmitter.ino file in the Arduino IDE.
 3. Replace the `AUTH` value with the authorization token you previously receive via email from Blynk.
 4. Replace the `SSID` value with the SSID name of your wifi network.
