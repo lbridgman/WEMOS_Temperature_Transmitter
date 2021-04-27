@@ -52,3 +52,26 @@ Software|Blynk App for iOS or Android|[Download](https://blynk.io/en/getting-sta
 4. **Note:** A unique authorization token was sent via the email address used in Step 2.  Make reference of this token for the code implementation.
 
 ### 4.3 Assemble the Hardware
+Assemble the microcontroller, resistor, thermistor, and jumper wires accordingly:
+![circuit](https://user-images.githubusercontent.com/23409144/116312223-298eb880-a77a-11eb-98b3-48b5c6da0384.png)
+**Note:** You are drawing power from the `3V3` pin, and you are connecting the circuit to the `A0` pin.
+
+### 4.4 Write the Code
+1. Download the temp_transmitter.ino file.
+2. Open the temp_transmitter.ino file in the Arduino IDE.
+3. Replace the `AUTH` value with the authorization token you previously receive via email from Blynk.
+4. Replace the `SSID` value with the SSID name of your wifi network.
+5. Replace the `PASSWORD` value with your wifi network password.
+6. Save the file.
+7. Choose _Sketch -> Verify/Compile_.
+8. Choose _Sketch -> Upload_.
+
+### 4.5 Configure Your Blynk Project
+1. Start the Blynk app and open the project you created earlier.
+2. Tap on the blank canvas.
+3. Scroll down to the _Displays_ section and choose _Labeled Value_.
+4. Set the _Input_ field to `Virtual` | `V0`.
+5. Set the _Label_ field to `/pin/°C`.
+6. Set the _Refresh Interval_ to `Push`.
+7. Choose _OK_.
+8. Tap the _Run_ icon in the top-right corner, and the temperature should display.
