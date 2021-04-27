@@ -39,4 +39,16 @@ Software|Blynk App for iOS or Android|[Download](https://blynk.io/en/getting-sta
 4. Choose _File -> Preferences_ and entering the following URL in the _Additional Boards Manager_ field: `https://arduino.esp8266.com/stable/package_esp8266com_index.json`.
 5. Choose _OK_.
 6. Choose _Tools -> Board... -> Boards Manager_, search for `esp8266`, and install the most recent version of the `esp8266` board.
-7. Choose _Tools -> Board... -> ESP8266 Boards -> LOLIN(WEMOS) D1 mini Pro_
+7. Choose _Tools -> Board... -> ESP8266 Boards -> LOLIN(WEMOS) D1 mini Pro_.
+8. Choose _Tools -> Manage Libraries ->_, search for `blynk`, and install the most recent version of the `Blynk` library by Volodymyr Shymanskyy.
+
+### 4.2 Download and Set Up the Blynk App
+1. Visit the iOS or Google app store to download and install the [Blynk](https://blynk.io/en/getting-started) app.
+2. Create a new account in the app using a valid email address. This may require inbox verification.
+3. Create a new project using the following settings, then choose _Create Project_ :
+  * _Project Name_: TemperatureSensor
+  * _Choose Device_: WeMos D1 mini
+  * _Connection Type_: WiFi
+4. **Note:** A unique authorization token was sent via the email address used in Step 2.  Make reference of this token for the code implementation.
+
+### 4.3 Assemble the Hardware
